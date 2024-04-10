@@ -18,8 +18,8 @@ let core_members = [
     position: "MDC",
   },
   {
-    name: "Sana Fathim",
-    img:"https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/akhil%20tec.jpg?updatedAt=1691859629933",
+    name: "Sana Fathim C A",
+    img:"https://ik.imagekit.io/IEEEGECT24/Execome24/sana%20fathim.jpg?updatedAt=1712757558576",
     position: "ECC",
   },
   {
