@@ -299,7 +299,7 @@ const Team = () => {
             </svg>
             <span className="relative">Welcome</span>
           </span>{" "}
-          Our talented team of young professionals
+          our talented team of student leaders
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Meet the very versatile and dynamic Executive Committee Team of IEEE
