@@ -15,9 +15,10 @@ let core_members = [
   {
     name: "Felix Geemon",
     img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Felix%20Geemon%20(Membership%20Development%20Coordinator).jpg?updatedAt=1712745962299",
+    position: "MDC",
   },
   {
-    name: "Sana Fathima",
+    name: "Sana Fathim",
     img:"https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/akhil%20tec.jpg?updatedAt=1691859629933",
     position: "ECC",
   },
@@ -48,7 +49,7 @@ let core_members = [
   },
   {
     name: "Anjana P R",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Anjana%20P%20R.jpg?updatedAt=1712745949394",
+    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/IMG_20230519_200030(1).jpg?updatedAt=1712756263903",
     position: "Webmaster",
   },
   {
@@ -114,7 +115,7 @@ let societies = [
       },
       {
         name: "Arun James",
-        img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Anena_Samrin.JPG?updatedAt=1681401003309",
+        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/ARUN%20JAMES%20(TEMS%20VICE%20CHAIR).jpg?updatedAt=1712755532438",
         position: "Vice Chair",
       },
     ],
@@ -124,7 +125,7 @@ let societies = [
     members: [
       {
         name: "Sneha Sara Elias",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Sneha%20Sara%20Elias.jpg?updatedAt=1712745946594",
+        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Sneha%20Sara%20Elias.jpg?updatedAt=1712756425763",
         position: "Chairperson",
       },
 
@@ -135,7 +136,7 @@ let societies = [
       },
       {
         name: "Anjana P R",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Anjana%20P%20R.jpg?updatedAt=1712745949394",
+        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/IMG_20230519_200030(1).jpg?updatedAt=1712756263903",
         position: "WiC",
       },
     ],
@@ -215,7 +216,7 @@ let societies = [
       },
       {
         name: "Lakshmipriya  K Kaimal",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Muhammed%20Adhil%20TN.JPG?updatedAt=1712745951414",
+        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Lakshmipriya%20K%20Kaimal%20(IAS%20VICE%20Chair).jpg?updatedAt=1712755448031",
         position: "Vice Chair",
       },
     ],
@@ -224,8 +225,8 @@ let societies = [
     soc_name: "Robotics and Automation Society",
     members: [
       {
-        name: "Sreevishnu",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Sreevishnu%20S%20(RAS%20Chair).jpg?updatedAt=1712745961642",
+        name: "Sreevishnu S",
+        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Sreevishnu%20S%20(RAS%20Chair).jpg?updatedAt=1712756558161",
         position: "Chairperson",
       },
       {
