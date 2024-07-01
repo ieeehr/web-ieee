@@ -168,7 +168,7 @@ const Header = ({ route }) => {
             <Link to="/">
               <div className="pt-1 w-40 md:w-48">
                 <StaticImage
-                  src="../images/logo-blue.png"
+                  src="https://ik.imagekit.io/theg0g1wy/IEEE_web/IEEEGECTLOGO_purple.png?updatedAt=1718441483497"
                   quality={100}
                   placeholder="tracedSVG"
                   formats={["AUTO", "WEBP", "AVIF"]}
@@ -208,7 +208,7 @@ const Header = ({ route }) => {
               <Link to="/">
                 <div className="pt-1 w-40 md:w-48">
                   <StaticImage
-                    src="../images/logo-white.png"
+                    src="https://ik.imagekit.io/theg0g1wy/IEEE_web/IEEEGECTLOGO_white.png?updatedAt=1718441175452"
                     quality={100}
                     placeholder="tracedSVG"
                     formats={["AUTO", "WEBP", "AVIF"]}
