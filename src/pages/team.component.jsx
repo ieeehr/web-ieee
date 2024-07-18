@@ -44,7 +44,7 @@ let core_members = [
   },
   {
     name: "Hanana K",
-    img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Ben_A_Sabu_.jpg?updatedAt=1681401006478",
+    img: "https://ik.imagekit.io/wsggaioik/img1.jpg?updatedAt=1721278278900",
     position: "Webmaster",
   },
   {
