@@ -132,12 +132,12 @@ const Header = ({ route }) => {
       <NavLink to="/">Home</NavLink>
       <NavLink to="/chapters">Chapters</NavLink>
       <DropDown to="/e/" title="Registrations">
-        <DropDownLink to="https://forms.gle/QbB6wMoxHLS55zGa7">
-          Tag It
+        <DropDownLink to="https://forms.gle/inywKHL3RdR4wfx96">
+           VEGA Processors and Ecosystem
         </DropDownLink>
-        <DropDownLink to=" https://bit.ly/Print-xyz">Print.xyz</DropDownLink>
-        <DropDownLink to="https://bit.ly/IEEE_Evidence_Escapade_">
-          Evidence Escape
+        <DropDownLink to=" https://signal.ieeespskc.in/">Signal 3.0</DropDownLink>
+        <DropDownLink to="https://forms.gle/m2DfLVK9MD74ZSXY7">
+          Survey
         </DropDownLink>
       </DropDown>
       <NavLink to="/execom">Execom</NavLink>
