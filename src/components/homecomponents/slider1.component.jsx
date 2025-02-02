@@ -61,79 +61,81 @@ const CoverflowEffect = () => {
 
   let slideritems = [
     {
-      
+      // to: "https://www.instagram.com/p/CxihbvtPISA/?igshid=MzRlODBiNWFlZA==",
+      // imgSrc:
+      //   "https://ik.imagekit.io/nm1ondc9y/Hack2.0.jpg?updatedAt=1695554220447",
+      // newPage: true,
       to: "https://www.instagram.com/ieeesbgect/p/DFSmXKaP7eF/?hl=en",
       imgSrc:
         "https://ik.imagekit.io/rrjiefo85/AGM.jpg?updatedAt=1737998692429",
       newPage: true,
     },
     {
-        to: "http://revathon.cecieee.org/",
+      to: "https://forms.gle/QbB6wMoxHLS55zGa7",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Revathon.jpg?updatedAt=1738001702298",
+        "https://ik.imagekit.io/0ta3q23cu/events/tagit.webp?updatedAt=1687020740231",
       newPage: true,
-      
     },
     {
-      to: "https://www.yepdesk.com/signal-3-0",
+      to: "https://bit.ly/Print-xyz",
       imgSrc:
-        " https://ik.imagekit.io/rrjiefo85/IEEE/Radio.jpg?updatedAt=1738001442401",
+        " https://ik.imagekit.io/0ta3q23cu/events/print.xyz.jpg?updatedAt=1687021069074",
       newPage: true,
     },
 
     {
-        to: "https://forms.gle/inywKHL3RdR4wfx96",
-        imgSrc:
-          "https://ik.imagekit.io/rrjiefo85/IEEE/Vega.jpg?updatedAt=1738001055543",
-        newPage: true,
+      to: "https://bit.ly/IEEE_Evidence_Escapade_",
+      imgSrc:
+        "https://ik.imagekit.io/0ta3q23cu/events/escapeevidence_pitaMLXR8?updatedAt=1687020833815",
+      newPage: true,
     },
 
     {
-      to: "https://www.ieee.fisat.ac.in/droid4.0",
+      to: "e/enigma",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Droid.jpg?updatedAt=1738002142313",
+        "https://ik.imagekit.io/nm1ondc9y/enigma.jpg?updatedAt=1685107189758",
       newPage: true,
     },
     {
-      to: "http://www.akcomsocsc.live/",
+      to: "https://bit.ly/pesdayeventecosafe",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/FPGA.jpg?updatedAt=1738002426895",
+        "https://ik.imagekit.io/0ta3q23cu/events/Ecosafe.jpg?updatedAt=1681570818678",
       newPage: true,
     },
     {
-      to: "https://bit.ly/PCB_SPS",
+      to: "https://bit.ly/Web-Wiz",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/PCB.jpg?updatedAt=1738004161914",
+        "https://ik.imagekit.io/nm1ondc9y/webwiz.jpg?updatedAt=1681551593092",
       newPage: true,
     },
     {
-      to: "https://bit.ly/doppelPager",
+      to: "http://bit.ly/ieeeelectroclash",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/DoppelPager.jpg?updatedAt=1738004704550",
+        "https://ik.imagekit.io/nm1ondc9y/electroclash.jpg?updatedAt=1681551593051",
       newPage: true,
     },
     {
-      to: "https://forms.gle/Vo1Akvw5rADN45Mg8",
+      to: "https://forms.gle/dQWfYzLiV4DCeFnLA",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Squid.jpg?updatedAt=1738004705148",
+        "https://ik.imagekit.io/nm1ondc9y/circuitex.jpg?updatedAt=1681551593030",
       newPage: true,
     },
     {
-      to: "https://forms.gle/FTiNk7HhgCZhx6sT9",
+      to: "/e/agm23",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Commquest.jpg?updatedAt=1738004705907",
+        "https://ik.imagekit.io/nm1ondc9y/agm_23.jpg?updatedAt=1681446616993",
       newPage: true,
     },
     {
-      to: "https://bit.ly/Electroclash_SPS",
+      to: "/e/visionQuest",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Thermin.jpg?updatedAt=1738004705971",
+        "https://ik.imagekit.io/nm1ondc9y/vision_quest.jpg?updatedAt=1681446615460",
       newPage: true,
     },
     {
-      to: "https://forms.gle/hvoGDKGaatKtxTbU7",
+      to: "/e/webinar",
       imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Electric.jpg?updatedAt=1738004705703",
+        "https://ik.imagekit.io/nm1ondc9y/webinar_on_linked_in_jobs_and_ieee.jpg?updatedAt=1681446615217",
       newPage: true,
     },
   ]
