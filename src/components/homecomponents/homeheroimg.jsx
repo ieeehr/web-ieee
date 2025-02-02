@@ -5,7 +5,7 @@ const HomeHeroImg = () => (
   <div className="relative -mt-20" style={{ height: `100vh` }}>
     <StaticImage
       // src="../../images/group1.webp"
-      src="https://ik.imagekit.io/rrjiefo85/IEEE/Group.jpg?updatedAt=1738031280967"
+      src="https://ik.imagekit.io/rrjiefo85/IEEE/Grp.jpg?updatedAt=1738492896628"
       quality={100}
       placeholder="blurred"
       formats={["AUTO", "WEBP", "AVIF"]}
