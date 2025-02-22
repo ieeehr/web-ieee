@@ -131,10 +131,6 @@ const Footer = () => {
                       CS
                     </Link>
                   </li>
-                </ul>
-              </div>
-              <div className="col-start-3 col-span-1">
-                <ul className="mt-2 space-y-2">
                   <li>
                     <Link
                       to="/chapters/#soc4"
@@ -151,6 +147,26 @@ const Footer = () => {
                       PELS
                     </Link>
                   </li>
+                </ul>
+              </div>
+              <div className="col-start-3 col-span-1">
+                <ul className="mt-2 space-y-2">
+                  {/* <li>
+                    <Link
+                      to="/chapters/#soc4"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      RAS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc5"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      PELS
+                    </Link>
+                  </li> */}
                   <li>
                     <Link
                       to="/chapters/#soc6"
@@ -190,7 +206,7 @@ const Footer = () => {
 
           <div>
             <p className="font-semibold tracking-wide text-gray-800 ">
-              Affinity And Special Intrest Group
+              Affinity And Special Interest Group
             </p>
             <div className="grid grid-cols-1">
               <div className="col-span-1">
@@ -203,14 +219,14 @@ const Footer = () => {
                       WIE
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       to="/chapters/#soc7"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       SIGHT
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

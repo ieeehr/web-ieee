@@ -61,45 +61,47 @@ const CoverflowEffect = () => {
 
   let slideritems = [
     {
+      to: "https://docs.google.com/forms/d/e/1FAIpQLScxJdfy9qZdY0Z6qL5VBYflzUkwpgEsycgqy_5UKMUaMg07xg/viewform",
+    imgSrc:"https://ik.imagekit.io/u4sib0gco/Images/Cell%20me%20the%20answer.jpeg?updatedAt=1740211401051",
+      
+    newPage: true,
+    
+  },
+  {
+    to: "https://docs.google.com/forms/d/e/1FAIpQLSfJxmVPkEsp1OPJ8VNptzvkbWx2qk8bIHG58gXZll8X6d30PA/viewform",
+    imgSrc:
+      "https://ik.imagekit.io/u4sib0gco/Images/Webwiz.jpeg?updatedAt=1740211412774",
+    newPage: true,
+  },
+    {
       
       to: "https://www.instagram.com/ieeesbgect/p/DFSmXKaP7eF/?hl=en",
       imgSrc:
         "https://ik.imagekit.io/rrjiefo85/AGM.jpg?updatedAt=1737998692429",
       newPage: true,
     },
-    {
-        to: "http://revathon.cecieee.org/",
-      imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Revathon.jpg?updatedAt=1738001702298",
-      newPage: true,
-      
-    },
-    {
-      to: "https://www.yepdesk.com/signal-3-0",
-      imgSrc:
-        " https://ik.imagekit.io/rrjiefo85/IEEE/Radio.jpg?updatedAt=1738001442401",
-      newPage: true,
-    },
+    
+    
 
     {
         to: "https://forms.gle/inywKHL3RdR4wfx96",
         imgSrc:
-          "https://ik.imagekit.io/rrjiefo85/IEEE/Vega.jpg?updatedAt=1738001055543",
+          "https://ik.imagekit.io/rrjiefo85/IEEE/Vega.jpg?tr=w-1080,h-1080",
         newPage: true,
     },
 
-    {
-      to: "https://www.ieee.fisat.ac.in/droid4.0",
-      imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/Droid.jpg?updatedAt=1738002142313",
-      newPage: true,
-    },
-    {
-      to: "http://www.akcomsocsc.live/",
-      imgSrc:
-        "https://ik.imagekit.io/rrjiefo85/IEEE/FPGA.jpg?updatedAt=1738002426895",
-      newPage: true,
-    },
+    // {
+    //   to: "https://www.ieee.fisat.ac.in/droid4.0",
+    //   imgSrc:
+    //     "https://ik.imagekit.io/rrjiefo85/IEEE/Droid.jpg?updatedAt=1738002142313",
+    //   newPage: true,
+    // },
+    // {
+    //   to: "http://www.akcomsocsc.live/",
+    //   imgSrc:
+    //     "https://ik.imagekit.io/rrjiefo85/IEEE/FPGA.jpg?updatedAt=1738002426895",
+    //   newPage: true,
+    // },
     {
       to: "https://bit.ly/PCB_SPS",
       imgSrc:

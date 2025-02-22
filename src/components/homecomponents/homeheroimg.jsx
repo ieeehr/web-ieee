@@ -10,7 +10,7 @@ const HomeHeroImg = () => (
       placeholder="blurred"
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="cover"
-      className="inset-0 w-full h-full object-cover"
+      className=" absolute inset-0 w-full h-full object-cover"
       style={{ position: "absolute" }}
     />
     {/* <div className="bg-black opacity-40 absolute inset-0" />
