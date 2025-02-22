@@ -23,28 +23,28 @@ const HomeAboutUs = () => (
               </div>
             </div>
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-              <h2 className="title-font font-medium text-3xl text-gray-900">
+              <h2 className="title-font text-center font-medium text-3xl text-gray-900">
                 212
               </h2>
-              <p className="leading-relaxed">Active Members</p>
+              <p className="leading-relaxed text-center">Active Members</p>
             </div>
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-              <h2 className="title-font font-medium text-3xl text-gray-900">
+              <h2 className="title-font font-medium text-3xl text-center text-gray-900">
                 8
               </h2>
-              <p className="leading-relaxed">Societies</p>
+              <p className="leading-relaxed text-center">Societies</p>
             </div>
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-              <h2 className="title-font font-medium text-3xl text-gray-900">
+              <h2 className="title-font font-medium text-3xl text-center text-gray-900">
                 35
               </h2>
-              <p className="leading-relaxed">Awards</p>
+              <p className="leading-relaxed text-center">Awards</p>
             </div>
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-              <h2 className="title-font font-medium text-3xl text-gray-900">
+              <h2 className="title-font font-medium text-3xl text-center text-gray-900">
                 200+
               </h2>
-              <p className="leading-relaxed">Events</p>
+              <p className="leading-relaxed text-center">Events</p>
             </div>
           </div>
           <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">

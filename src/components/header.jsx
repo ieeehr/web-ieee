@@ -132,13 +132,13 @@ const Header = ({ route }) => {
       <NavLink to="/">Home</NavLink>
       <NavLink to="/chapters">Chapters</NavLink>
       <DropDown to="/e/" title="Registrations">
-        <DropDownLink to="https://forms.gle/inywKHL3RdR4wfx96">
-           VEGA Processors and Ecosystem
+        <DropDownLink to="https://docs.google.com/forms/d/e/1FAIpQLSfJxmVPkEsp1OPJ8VNptzvkbWx2qk8bIHG58gXZll8X6d30PA/viewform">
+           Webwiz Challenge
         </DropDownLink>
-        <DropDownLink to=" https://signal.ieeespskc.in/">Signal 3.0</DropDownLink>
-        <DropDownLink to="https://forms.gle/m2DfLVK9MD74ZSXY7">
+        <DropDownLink to="https://docs.google.com/forms/d/e/1FAIpQLScxJdfy9qZdY0Z6qL5VBYflzUkwpgEsycgqy_5UKMUaMg07xg/viewform">Cell me the Answer</DropDownLink>
+        {/* <DropDownLink to="https://forms.gle/m2DfLVK9MD74ZSXY7">
           Survey
-        </DropDownLink>
+        </DropDownLink> */}
       </DropDown>
       <NavLink to="/execom">Execom</NavLink>
       <NavLink to="/blogs">Blogs</NavLink>

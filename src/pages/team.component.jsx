@@ -2,85 +2,159 @@ import * as React from "react"
 import { Member } from "../components/member.component"
 let core_members = [
   {
-    name: "Anupriya Krishnakumar",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Anupriya%20Krishnakumar(Chair).JPG?updatedAt=1712745392731",
+    name: "Pavithra S",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Copy%20of%20Pavithra%20S%20-%20SB%20Chairperson.jpg?updatedAt=1739860349906",
     position: "Chairperson",
     
   },
   {
-    name: "Bhadra Nair",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Bhadra%20Nair%20(secretary).jpg?updatedAt=1712745389539",
-    position: "Secretary",
-  },
-  {
     name: "Felix Geemon",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Felix%20Geemon%20(Membership%20Development%20Coordinator).jpg?updatedAt=1712745962299",
-    position: "MDC",
-  },
-  {
-    name: "Sana Fathim C A",
-    img:"https://ik.imagekit.io/IEEEGECT24/Execome24/sana%20fathim.jpg?updatedAt=1712757558576",
-    position: "ECC",
-  },
-  {
-    name: "Anjana V",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/ANJANA%20V(TREASURER).jpg?updatedAt=1712745937308",
-    position: "Treasurer",
-  },
-  {
-    name: "Abhishek K",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Abishek(Vice%20Chair).JPG?updatedAt=1712745392675",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Felix%20Geemon%20Vice-chairperson_.jpg?updatedAt=1739860355145",
     position: "Vice Chairperson",
   },
   {
-    name: "Anjana J Nair",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/anjana%20j%20nair.jpg?updatedAt=1712745934363",
-    position: "Joint Secretary",
+    name: "Pranav K Nair",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Pranav%20K%20Nair%20-%20Secretary_.jpg?updatedAt=1739860382686",
+    position: "Secretary",
   },
   {
-    name: "Abdul Nafih",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Abdul%20Nafih%20P%20K(joint_treasurer).jpg?updatedAt=1712745923209",
-    position: "Joint treasurer",
+    name: "Kavya A",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/KAVYA%20A-%20Treasurer.JPG?updatedAt=1739860365280",
+    position: "Treasurer",
   },
+  // {
+  //   name: "Hanana K",
+  //   img: "https://ik.imagekit.io/wsggaioik/img1.jpg?updatedAt=1721278278900",
+  //   position: "Webmaster",
+  // },
   {
-    name: "Hanana K",
-    img: "https://ik.imagekit.io/wsggaioik/img1.jpg?updatedAt=1721278278900",
+    name: "Hridwick ",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Hridwick-Web%20Lead.jpg?tr=w-1000,h-300updatedAt=1739860358239",
     position: "Webmaster",
   },
   {
-    name: "Anjana P R",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/IMG_20230519_200030(1).jpg?updatedAt=1712756263903",
-    position: "Webmaster",
+    name: "Maria Siby",
+    img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Maria%20Siby%20-%20ECC.jpg?updatedAt=1740050794285",
+    position: "ECC",
   },
   {
-    name: "Gouri K S",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/GOURI%20K%20S%20_editor.jpg?updatedAt=1712745949098",
-    position: "Editor",
+    name: "Niranjana V",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Niranjana%20V-Membership%20Development%20Coordinator.jpg?updatedAt=1739860374924",
+    position: "MDC",
+  },
+  
+  
+  
+  {
+    name: "Diya S Nair",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Diya%20S%20Nair%20-%20Design%20Lead_.jpg?updatedAt=1739860382276",
+    position: "Design Lead",
   },
   {
-    name: "Aneena A A",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Aneena%20A%20A%20(Social%20Media%20Head).jpg?updatedAt=1712745933411",
-    position: "Social Media Head",
-  },
-  {
-    name: "Vaishnavi B",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/VAISHNAVI%20B%20(LINK%20REPRESENTATIVE).jpg?updatedAt=1712745960754",
-    position: "LINK Representative",
+    name: "N Jyothi Lakshmi",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/N%20Jyothi%20Lakshmi%20-%20Content%20Lead.jpg?updatedAt=1739860373315",
+    position: "Content Lead",
   },
   
   {
-    name: "Kiran Joseph",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/KIRAN%20JOSEPH(SIGHT%20Lead).jpg?updatedAt=1712745955007",
-    position: "SIGHT Lead",
+    name: "Rohit Sajeev",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/ROHITH%20SAJEEV%20-%20MEDIA%20LEAD.jpg?updatedAt=1739860383195",
+    position: "Media Lead",
   },
   {
-    name: "Anand Anil",
-    img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Anand%20Anil%20(Technical%20Coordinator).jpg?updatedAt=1712745949703",
-    position: "Technical Coordinator",
+    name: "Mrudhul Sankar V S",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Mrudhul%20sankar%20vs%20-%20Project%20lead,%20IAS%20seceratry.jpg?updatedAt=1739860366515",
+    position: "Project Lead",
   },
+  {
+    name: "Nandana Nair",
+    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Nandana%20Nair%20-%20LINK%20Representative%20,%20IAS%20Chairperson.jpg?updatedAt=1739860367588",
+    position: "LINK Representative",
+  },
+  
+  
 ]
 let societies = [
   {
+    soc_name: "Communication Society",
+    members: [
+      {
+        name:"Dr Job Chunkath",
+        img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Dr%20Job%20Chunkath%20-%20Comsoc%20advisor.jpg?updatedAt=1740124019749",
+        position:"Chapter Advisor",
+
+      },
+      {
+        name: "Dhruv Vikas",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Dhruva%20Vikas-%20Comsoc%20chair.jpg?updatedAt=1739860348367",
+        position: "Chairperson",
+      },
+      {
+        name: "Vasudev R",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Vasudev%20R%20Comsoc%20secretary.jpg?updatedAt=1739860382234",
+        position: "Secretary",
+      },
+      {
+        name: "Nandana S",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Nandana%20S%20-%20WiCE,Communications%20Society_.jpg?updatedAt=1739860367050",
+        position: "WiCE",
+      },
+    ],
+  },
+  {
+    soc_name: "Computer Society",
+    members: [
+      {
+        name:"Dr Gilesh M P",
+        img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Dr%20Gilesh%20M%20P%20CS%20ADVISOR.jpg?updatedAt=1740124019744",
+        position:"Chapter Advisor",
+      },
+      {
+        name: "Adwaidh P",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Adwaidh%20Payattuparambil%20-%20CS%20Chairperson.jpg?updatedAt=1739860373101",
+        position: "Chairperson",
+      },
+
+      {
+        name: "Archith Sunil",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/ARCHITH%20SUNIL%20%20CS%20%20SECRETARY%20.jpg?updatedAt=1739860346492",
+        position: "Secretary",
+      },
+      {
+        name: "Gayathri Shaji",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Gayathri%20Shaji-%20WiCS,Computer%20Society%20.jpg?updatedAt=1739860348056",
+        position: "WiC",
+      },
+    ],
+  },
+  {
+    soc_name: "Robotics and Automation Society",
+    members: [
+      {
+        name:"Mr Sajithkumar M",
+        img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Sajith%20Kumar%20Advisor%20RAS.JPG?updatedAt=1740124020442",
+        position:"Chapter Advisor",
+      },
+      {
+        name: "Meghna R",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Meghna%20R%20-%20RAS%20Chairperson.jpg?updatedAt=1739860360898",
+        position: "Chairperson",
+      },
+      {
+        name: "Adithyan V",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/ADITHYAN%20V,%20%20Vice-chairperson%20RAS.jpeg?updatedAt=1739860348665",
+        position: "Vice Chairperson",
+      },
+      {
+        name: "Sreehari M",
+        img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/SREEHARI%20M,RAS%20SECRETARY.jpg?updatedAt=1739860383094",
+        position: "Secretary",
+      },
+      
+      
+    ],
+  },
+  /*{
     soc_name: "Power & Energy Society",
     members: [
       {
@@ -97,6 +171,11 @@ let societies = [
         name: "Gayathri Vinayan",
         img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Gayathri%20Vinayan(WiP%20PES)%20.jpg?updatedAt=1712745938644",
         position: "WiP",
+      },
+      {
+        name: "Uma Shankari",
+        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Uma%20Shankari_%20content.jpg?updatedAt=1712745959844",
+        position: "Chairperson",
       },
     ],
   },
@@ -120,47 +199,8 @@ let societies = [
       },
     ],
   },
-  {
-    soc_name: "Computer Soceity",
-    members: [
-      {
-        name: "Sneha Sara Elias",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Sneha%20Sara%20Elias.jpg?updatedAt=1712756425763",
-        position: "Chairperson",
-      },
-
-      {
-        name: "Govind K",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/K_Govind(Computer%20Society%20Secretary).jpg?updatedAt=1712745954646",
-        position: "Secretary",
-      },
-      {
-        name: "Anjana P R",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/IMG_20230519_200030(1).jpg?updatedAt=1712756263903",
-        position: "WiC",
-      },
-    ],
-  },
-  {
-    soc_name: "Communication Society",
-    members: [
-      {
-        name: "Nithya",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Nithya%20K(ComSoc%20Chair).jpg?updatedAt=1712745943321",
-        position: "Chairperson",
-      },
-      {
-        name: "Pranav K Nair",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Pranav%20K%20Nair.jpg?updatedAt=1712745945131",
-        position: "Secretary",
-      },
-      {
-        name: "Arsha V V",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Arsha%20v%20v%20(wice%20comsoc).jpg?updatedAt=1712745942742",
-        position: "WiCE",
-      },
-    ],
-  },
+  
+  
   {
     soc_name: "Signal Processing Society",
     members: [
@@ -221,26 +261,7 @@ let societies = [
       },
     ],
   },
-  {
-    soc_name: "Robotics and Automation Society",
-    members: [
-      {
-        name: "Sreevishnu S",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Sreevishnu%20S%20(RAS%20Chair).jpg?updatedAt=1712756558161",
-        position: "Chairperson",
-      },
-      {
-        name: "Abhinav V",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Abhinav%20V.JPG?updatedAt=1712745940656",
-        position: "Secretary",
-      },
-      {
-        name: "Meghna R",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Meghna%20R.jpg?updatedAt=1712745962033",
-        position: "Vice Chair",
-      },
-    ],
-  },
+  
   {
     soc_name: "Women In Engineering",
     members: [
@@ -261,7 +282,136 @@ let societies = [
       },
 
     ],
-  },
+  },*/
+]
+let societies1=[{
+  soc_name: "Industry Applications Society",
+  members: [
+    {name: "Prof Lalgy Gopi",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Prof.Lalgy%20Gopi,%20IAS.jpg?updatedAt=1740124020084",
+      position: "Chapter Advisor",},
+    
+    {
+      name: "Nandana Nair",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Nandana%20Nair%20-%20LINK%20Representative%20,%20IAS%20Chairperson.jpg?updatedAt=1739860367588",
+      position: "Secretary",
+    },
+    {
+      name: "Mrudhul Sankar V S",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Mrudhul%20sankar%20vs%20-%20Project%20lead,%20IAS%20seceratry.jpg?updatedAt=1739860366515",
+      position: "Secretary",
+    },
+    
+  ],
+},
+{
+  soc_name: "Power & Energy Society",
+  members: [
+    {
+      name: "Prof Bijo Lawrence T",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Bijo%20Lawrence%20T-PES%20advisor.jpeg?updatedAt=1740124019754",
+      position: "Chapter Advisor",
+    },
+    {
+      name: "Irin Maria",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Irin%20Maria-PES%20Chairperson.JPG?updatedAt=1739860357908",
+      position: "Chairperson",
+    },
+    {
+      name: "K Srihari",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/K%20Srihari%20PES%20Secretary.jpg?updatedAt=1739860373387",
+      position: "Secretary",
+    },
+    
+    
+  ],
+},
+{
+  soc_name: "Power Electronics Society",
+  members: [
+    {
+      name: "Dr Jaison Mathew",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Prof.%20Jaison%20Mathew%20PELS.jpg?updatedAt=1740124294414",
+      position: "Chapter Advisor",
+    },
+    {
+      name: " Muhammed Adhil T N",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/MUHAMMED%20ADHIL%20TN.jpg?updatedAt=1739860384493",
+      position: "Chairperson",
+    },
+    {
+      name: "Neethu K N",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Neethu%20K%20N%20-%20PELS%20Secretary.jpg?updatedAt=1739860369892",
+      position: "Secretary",
+    },
+    
+  ],
+},
+{
+  soc_name: "Signal Processing Society",
+  members: [
+    {
+      name: "Dr Job Chunkath",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Dr%20Job%20Chunkath%20-%20Comsoc%20advisor.jpg?updatedAt=1740124019749",
+      position: "Chapter Advisor",
+    },
+    {
+      name: "S Gayathri",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/S%20Gayathri,%20SPS%20Chairperson.JPG?updatedAt=1739860385549",
+      position: "Chairperson",
+    },
+    {
+      name: "Joseph P George",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Joseph%20p%20George%20-%20SPS%20secretary%20.jpg?updatedAt=1739860358548",
+      position: "Secretary",
+    },
+  ],
+},
+{
+  soc_name: "Technology and Engineering Management Soceity",
+  members: [
+    {
+      name: "Dr Laly M J",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Prof.%20Laly%20MJ%20TEMS%20advisor.jpg?updatedAt=1740124019868",
+      position: "Chapter Advisor",
+    },
+    {
+      name: "Resha Fathima",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Resha%20Fathima%20TEMS%20Chairperson_.jpg?updatedAt=1739860380526",
+      position: "Chairperson",
+    },
+    {
+      name: "Albin Ebby",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Albin%20Ebby%20-%20TEMS%20Secretary.jpg?updatedAt=1739860357183",
+      position: "Secretary",
+    },
+    
+  ],
+},
+{
+  soc_name: "Women In Engineering",
+  members: [
+    {
+      name: "Prof Anu Jayan",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Anu%20jayan%20(WiE%20staff%20advisor).jpg?updatedAt=1740124294148",
+      position: "Chapter Advisor",
+    },
+    {
+      name: "Veda K G",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Veda%20KG(WiE%20chair).jpg?updatedAt=1739860382160",
+      position: "Chairperson",
+    },
+    {
+      name: "Pavithra B",
+      img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Pavithra%20B%20_%20WIE%20secretary%20_.jpg?updatedAt=1739860375514",
+      position: "Secretary",
+    },
+    
+
+  ],
+},
+
+
 ]
 
 const Team = () => {
@@ -303,10 +453,10 @@ const Team = () => {
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Meet the very versatile and dynamic Executive Committee Team of IEEE
-          SB GECT for the year 2024- 2025
+          SB GECT for the year 2025- 2026
         </p>
       </div>
-      <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-12 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
         {core_members.map(m => {
           return (
             <Member
@@ -329,7 +479,39 @@ const Team = () => {
                 </p>
               </div>
               <div className="my-4"></div>
-              <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
+              {/* <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
+              {/* <div className="grid gap-10 row-gap-1 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
+              <div className="grid gap-10 row-gap-10  mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
+
+                {society.members.map(mem => {
+                  return (
+                    <Member
+                      memberName={mem.name}
+                      imageLink={mem.img}
+                      memberPos={mem.position}
+                    />
+                  )
+                })}
+              </div>
+            </>
+          )
+        })}
+      </div>
+      <div>
+        {societies1.map(society => {
+          return (
+            <>
+              <hr className="mb-6 mt-4"></hr>
+              <div>
+                <p className="inline-block px-3 py-px mb-4 text-xl font-normal tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                  {society.soc_name}
+                </p>
+              </div>
+              <div className="my-4"></div>
+              {/* <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
+              {/* <div className="grid gap-10 row-gap-1 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
+              <div className="grid gap-10 row-gap-10 gap-x-32 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
+
                 {society.members.map(mem => {
                   return (
                     <Member

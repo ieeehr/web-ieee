@@ -146,9 +146,14 @@ const tsParticlesConfig = {
           height: 55,
         },
         {
-          src: "/SIGHT.png",
+          src: "https://ik.imagekit.io/0ta3q23cu/COMSOC.jpg?updatedAt=1681194395271",
           width: 150,
           height: 67,
+        },
+        {
+          src:"https://ik.imagekit.io/0ta3q23cu/ieeSPS.png?updatedAt=1681194803920",
+          width:150,
+          height:45,
         },
         {
           src: "/TEMS.png",
