@@ -42,6 +42,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        defaults: {
+          formats: ["auto", "png"],  // Remove webp to test
+          placeholder: "blurred",
+        },
         name: `IEEE Website GEC Thrissur`,
         short_name: `IEEE GECT`,
         start_url: `/`,
