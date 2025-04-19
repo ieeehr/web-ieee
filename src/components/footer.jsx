@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="md:max-w-md lg:col-span-2">
           <a href="/" aria-label="Go home" className="inline-flex items-center">
             <StaticImage
-              src="../images/logo-blue.png"
+              src="../images/logo-blue.jpg"
               quality={100}
               width={160}
               placeholder="tracedSVG"
