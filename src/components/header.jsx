@@ -171,7 +171,8 @@ const Header = ({ route }) => {
                   src="https://ik.imagekit.io/theg0g1wy/IEEE_web/IEEEGECTLOGO_purple.png?updatedAt=1718441483497"
                   quality={100}
                   placeholder="tracedSVG"
-                  formats={["AUTO", "WEBP", "AVIF"]}
+                  //formats={["AUTO", "WEBP", "AVIF"]}
+                  formats={["AUTO", "WEBP"]}
                   alt="logo"
                 />
               </div>
@@ -211,7 +212,8 @@ const Header = ({ route }) => {
                     src="https://ik.imagekit.io/theg0g1wy/IEEE_web/IEEEGECTLOGO_white.png?updatedAt=1718441175452"
                     quality={100}
                     placeholder="tracedSVG"
-                    formats={["AUTO", "WEBP", "AVIF"]}
+                    //formats={["AUTO", "WEBP", "AVIF"]}
+                    formats={["AUTO", "WEBP"]}
                     alt="logo"
                   />
                 </div>
