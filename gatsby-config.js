@@ -40,6 +40,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: ["auto", "png"], // avoid avif and webp for now
+          placeholder: "blurred",
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         defaults: {
