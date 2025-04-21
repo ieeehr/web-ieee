@@ -10,7 +10,8 @@ const HomeHeroImg = () => (
      
       quality={100}
       placeholder="blurred"
-      formats={["AUTO", "WEBP", "AVIF"]}
+      //formats={["AUTO", "WEBP", "AVIF"]}
+      formats={["AUTO", "WEBP"]}
       alt="cover"
       className=" absolute inset-0 w-full h-full object-cover"
       style={{ position: "absolute" }}
