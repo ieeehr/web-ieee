@@ -5,7 +5,7 @@ module.exports = {
     author: "IEEE SB GEC Thrissur",
     siteUrl: "https://ieee.gectcr.ac.in",
   },
-  pathPrefix: "/web-core",
+  //pathPrefix: "/web-core",
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
