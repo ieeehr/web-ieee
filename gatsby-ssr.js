@@ -1,6 +1,5 @@
-import "./src/styles/global.css"
+// gatsby-ssr.js
 import React from "react";
-import "./src/styles/global.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const wrapRootElement = ({ element }) => (
