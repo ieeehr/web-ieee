@@ -140,7 +140,7 @@ const Header = ({ route }) => {
           Survey
         </DropDownLink> */}
       </DropDown>
-      {/* <NavLink to="/execom">Execom</NavLink> */}
+      <NavLink to="/execom">Execom</NavLink>
       {/* <NavLink to="/blogs">Blogs</NavLink> */}
       <NavLink to="/scholorships">Scholarships</NavLink>
       <NavLink to="/register">Join IEEE </NavLink>
