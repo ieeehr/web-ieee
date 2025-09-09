@@ -30,16 +30,22 @@ const HomeAboutUs = () => (
             </div>
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
               <h2 className="title-font font-medium text-3xl text-center text-gray-900">
-                8
+                9
               </h2>
               <p className="leading-relaxed text-center">Societies</p>
             </div>
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
               <h2 className="title-font font-medium text-3xl text-center text-gray-900">
+                1
+              </h2>
+              <p className="leading-relaxed text-center">Affinity group</p>
+            </div>
+            {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 className="title-font font-medium text-3xl text-center text-gray-900">
                 35
               </h2>
               <p className="leading-relaxed text-center">Awards</p>
-            </div>
+            </div> */}
             <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
               <h2 className="title-font font-medium text-3xl text-center text-gray-900">
                 200+

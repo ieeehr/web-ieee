@@ -108,7 +108,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="font-semibold tracking-wide text-gray-800 ">
+            <p className="font-semibold text-center tracking-wide text-gray-800 ">
               Societies
             </p>
             <div className="grid grid-cols-3">
@@ -145,6 +145,14 @@ const Footer = () => {
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       PELS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc5"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      IES
                     </Link>
                   </li>
                 </ul>

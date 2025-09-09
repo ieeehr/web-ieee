@@ -2,6 +2,11 @@ import * as React from "react"
 import { Member } from "../components/member.component"
 let core_members = [
   {
+    name:"Dr. Joseph K D",
+    img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Chapter%20advisors/Dr.%20Joseph%20K%20D%20-%20Branch%20counsellor_.jpg?updatedAt=1740124294036",
+    position:"Branch counsellor"
+  },
+  {
     name: "Pavithra S",
     img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Copy%20of%20Pavithra%20S%20-%20SB%20Chairperson.jpg?updatedAt=1739860349906",
     position: "Chairperson",
