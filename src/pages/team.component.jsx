@@ -34,7 +34,8 @@ let core_members = [
   // },
   {
     name: "Hridwick ",
-    img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Hridwick-Web%20Lead.jpg?tr=w-1000,h-300updatedAt=1739860358239",
+    //img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Hridwick-Web%20Lead.jpg?tr=w-1000,h-100updatedAt=1739860358239",
+    img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/HridwickWeb%20Lead.jpg?updatedAt=1757556345355",
     position: "Webmaster",
   },
   {

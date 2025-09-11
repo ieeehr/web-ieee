@@ -36,7 +36,8 @@ let chapters = [
     chapid: "4",
     name1: "IEEE",
     name2: "WIE",
-    imgSrc: "https://witi.com/img/logos/ieeewomeninengineering.jpg",
+    //imgSrc: "https://witi.com/img/logos/ieeewomeninengineering.jpg",
+    imgSrc:"https://ik.imagekit.io/u4sib0gco/Images/wie.jpg?updatedAt=1757530280090",
     description: `  IEEE Women in Engineering is an affinity group under the IEEE that
     aims at promoting women's involvement in engineering and technology.
     It's activities focuses on empowering female engineers and researchers

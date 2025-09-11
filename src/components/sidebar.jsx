@@ -142,7 +142,7 @@ const SideBar = ({ route, setIsOpen }) => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/chapters">Chapters</NavLink>
 
-          <DropDown to="/e/" title="Registrations">
+          {/* <DropDown to="/e/" title="Registrations">
             <DropDownLink to="https://forms.gle/inywKHL3RdR4wfx96">
             VEGA Processors and Ecosystem
             </DropDownLink>
@@ -152,7 +152,7 @@ const SideBar = ({ route, setIsOpen }) => {
             <DropDownLink to="https://forms.gle/m2DfLVK9MD74ZSXY7">
              Survey
             </DropDownLink>
-          </DropDown>
+          </DropDown> */}
           <NavLink to="/execom">Execom</NavLink>
           <NavLink to="/blogs">Blogs</NavLink>
           <NavLink to="/scholorships">Scholarships</NavLink>
