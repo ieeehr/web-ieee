@@ -27,14 +27,8 @@ let core_members = [
     img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/KAVYA%20A-%20Treasurer.JPG?updatedAt=1739860365280",
     position: "Treasurer",
   },
-  // {
-  //   name: "Hanana K",
-  //   img: "https://ik.imagekit.io/wsggaioik/img1.jpg?updatedAt=1721278278900",
-  //   position: "Webmaster",
-  // },
   {
     name: "Hridwick ",
-    //img: "https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/Hridwick-Web%20Lead.jpg?tr=w-1000,h-100updatedAt=1739860358239",
     img:"https://ik.imagekit.io/u4sib0gco/IEEE%20Execom/Execom/HridwickWeb%20Lead.jpg?updatedAt=1757556345355",
     position: "Webmaster",
   },
@@ -160,135 +154,7 @@ let societies = [
       
     ],
   },
-  /*{
-    soc_name: "Power & Energy Society",
-    members: [
-      {
-        name: "Nidhin P S",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Nidhin%20P%20S(PES%20Chair).jpeg?updatedAt=1712745950673",
-        position: "Chairperson",
-      },
-      {
-        name: "Sivadath K M",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/SIVADATH%20K%20M.jpg?updatedAt=1712745961329",
-        position: "Secretary",
-      },
-      {
-        name: "Gayathri Vinayan",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Gayathri%20Vinayan(WiP%20PES)%20.jpg?updatedAt=1712745938644",
-        position: "WiP",
-      },
-      {
-        name: "Uma Shankari",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Uma%20Shankari_%20content.jpg?updatedAt=1712745959844",
-        position: "Chairperson",
-      },
-    ],
-  },
-  {
-    soc_name: "Technology and Engineering Management Soceity",
-    members: [
-      {
-        name: "Uma Shankari",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Uma%20Shankari_%20content.jpg?updatedAt=1712745959844",
-        position: "Chairperson",
-      },
-      {
-        name: "Tom Varghese",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Tom%20Varghese%20(Tems%20sec)_1.jpg?updatedAt=1712745960496",
-        position: "Secretary",
-      },
-      {
-        name: "Arun James",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/ARUN%20JAMES%20(TEMS%20VICE%20CHAIR).jpg?updatedAt=1712755532438",
-        position: "Vice Chair",
-      },
-    ],
-  },
-  
-  
-  {
-    soc_name: "Signal Processing Society",
-    members: [
-      {
-        name: "Pavithra S",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Pavithra%20S%20(%20SPS%20Chair%20).jpg?updatedAt=1712745956273",
-        position: "Chairperson",
-      },
-      {
-        name: "S Gayathri",
-        img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Pavithra_S.jpg?updatedAt=1681400996685",
-        position: "Secretary",
-      },
-      {
-        name: "Pranav S P",
-        img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Pavithra_S.jpg?updatedAt=1681400996685",
-        position: "Vice Chair",
-      },
-    ],
-  },
-  {
-    soc_name: "Power Electronics Society",
-    members: [
-      {
-        name: "Neha Anna Abraham",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Neha%20Anna%20Abraham%20.jpg?updatedAt=1712745955734",
-        position: "Chairperson",
-      },
-      {
-        name: "Sreepriya S",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/SREEPRIYA%20S(PELS%20sec).jpg?updatedAt=1712745935948",
-        position: "Secretary",
-      },
-      {
-        name: " Muhammed Adhil T N",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Muhammed%20Adhil%20TN.JPG?updatedAt=1712745951414",
-        position: "Vice Chair",
-      },
-    ],
-  },
-  {
-    soc_name: "Industry Applications Society",
-    members: [
-      {
-        name: "Adwaitha MR",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Adwaitha%20M%20R%20(IAS%20chair).jpeg?updatedAt=1712745917227",
-        position: "Chairperson",
-      },
-      {
-        name: "Nandana Nair",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/NANDANA%20NAIR,%20IAS%20SEC.jpg?updatedAt=1712745929702",
-        position: "Secretary",
-      },
-      {
-        name: "Lakshmipriya  K Kaimal",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Lakshmipriya%20K%20Kaimal%20(IAS%20VICE%20Chair).jpg?updatedAt=1712755448031",
-        position: "Vice Chair",
-      },
-    ],
-  },
-  
-  {
-    soc_name: "Women In Engineering",
-    members: [
-      {
-        name: "Hridya Sagar",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/hridya%20ph120210719_13214216%20(1).jpg?updatedAt=1712745953095",
-        position: "Chairperson",
-      },
-      {
-        name: "Mariya Paulson",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/Mariya%20paulson(WIE%20secretary).jpg?updatedAt=1712745945136",
-        position: "Secretary",
-      },
-      {
-        name: "Veda K G",
-        img: "https://ik.imagekit.io/IEEEGECT24/Execome24/VEDA%20K%20G(wie%20vice%20chair).png?updatedAt=1712745920759",
-        position: "Vice Chair",
-      },
 
-    ],
-  },*/
 ]
 let societies1=[{
   soc_name: "Industry Applications Society",
@@ -485,8 +351,6 @@ const Team = () => {
                 </p>
               </div>
               <div className="my-4"></div>
-              {/* <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
-              {/* <div className="grid gap-10 row-gap-1 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
               <div className="grid gap-10 row-gap-10  mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
 
                 {society.members.map(mem => {
@@ -514,8 +378,6 @@ const Team = () => {
                 </p>
               </div>
               <div className="my-4"></div>
-              {/* <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
-              {/* <div className="grid gap-10 row-gap-1 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3"> */}
               <div className="grid gap-10 row-gap-10 gap-x-32 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
 
                 {society.members.map(mem => {
