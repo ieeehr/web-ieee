@@ -9,6 +9,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@typeform/embed": "^2.12.0",
+    "@vercel/analytics": "^1.5.0",
+    "framer-motion": "^12.26.2",
     "gatsby": "^5.10.0",
     "gatsby-plugin-google-gtag": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
@@ -44,7 +46,6 @@
   "resolutions": {
     "graphql": "15.8.0"
   },
-  
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

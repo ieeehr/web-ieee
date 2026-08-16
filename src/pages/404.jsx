@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+//import { StaticImage } from "gatsby-plugin-image"
 
 import Seo from "../components/seo"
 
@@ -24,7 +24,7 @@ const NotFoundPage = () => (
             </button>
           </Link>
         </div>
-        <div className="max-w-lg hidden lg:block">
+        {/* <div className="max-w-lg hidden lg:block">
           <StaticImage
             src="../images/sad-cat.webp"
             placeholder="blurred"
@@ -32,7 +32,7 @@ const NotFoundPage = () => (
             quality={100}
             alt="Sad Cat"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   </>

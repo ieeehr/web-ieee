@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { throttle } from "lodash"
+//import { throttle } from "lodash"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faCaretDown } from "@fortawesome/free-solid-svg-icons"
@@ -9,21 +9,21 @@ import { faBars, faCaretDown } from "@fortawesome/free-solid-svg-icons"
 import SideBar from "./sidebar"
 
 const Header = ({ route }) => {
-  const [scrollPosition, setScrollPosition] = React.useState(0)
+  //const [scrollPosition, setScrollPosition] = React.useState(0)
   const [isOpen, setIsOpen] = React.useState(false) // for sidebar
 
-  React.useEffect(() => {
-    window.addEventListener("scroll", throttle(handleScroll, 100))
+  // React.useEffect(() => {
+  //   window.addEventListener("scroll", throttle(handleScroll, 100))
 
-    return () => {
-      window.removeEventListener("scroll", throttle(handleScroll, 100))
-    }
-  }, [])
+  //   return () => {
+  //     window.removeEventListener("scroll", throttle(handleScroll, 100))
+  //   }
+  // }, [])
 
-  const handleScroll = () => {
-    const position = window.pageYOffset
-    setScrollPosition(position)
-  }
+  // const handleScroll = () => {
+  //   const position = window.pageYOffset
+  //   setScrollPosition(position)
+  // }
 
   const NavLink = props => {
     return (
@@ -131,17 +131,17 @@ const Header = ({ route }) => {
     <>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/chapters">Chapters</NavLink>
-      <DropDown to="/e/" title="Registrations">
+      {/* <DropDown to="/e/" title="Registrations">
         <DropDownLink to="https://docs.google.com/forms/d/e/1FAIpQLSfJxmVPkEsp1OPJ8VNptzvkbWx2qk8bIHG58gXZll8X6d30PA/viewform">
            Webwiz Challenge
         </DropDownLink>
         <DropDownLink to="https://docs.google.com/forms/d/e/1FAIpQLScxJdfy9qZdY0Z6qL5VBYflzUkwpgEsycgqy_5UKMUaMg07xg/viewform">Cell me the Answer</DropDownLink>
-        {/* <DropDownLink to="https://forms.gle/m2DfLVK9MD74ZSXY7">
+        <DropDownLink to="https://forms.gle/m2DfLVK9MD74ZSXY7">
           Survey
-        </DropDownLink> */}
-      </DropDown>
+        </DropDownLink>
+      </DropDown> */}
       <NavLink to="/execom">Execom</NavLink>
-      <NavLink to="/blogs">Blogs</NavLink>
+      {/* <NavLink to="/blogs">Blogs</NavLink> */}
       <NavLink to="/scholorships">Scholarships</NavLink>
       <NavLink to="/register">Join IEEE </NavLink>
     </>
@@ -154,14 +154,16 @@ const Header = ({ route }) => {
 
       {/* Header to be displayed after 100px */}
       <header
-        className={`bg-white fixed w-full shadow rounded-b-lg px-6 z-30 transition-transform duration-500 ${
-          route === "/" ? "-top-40" : "top-0"
-        }`}
-        style={
-          route === "/" && scrollPosition > 100
-            ? { transform: "translate(0, 10rem)" }
-            : {}
-        }
+        className={"bg-white fixed w-full shadow rounded-b-lg px-6 z-30 transition-transform duration-500 "
+        //   ${
+        //   route === "/" ? "top-0" : "top-0"
+        // }`
+      }
+        // style={
+        //   route === "/" && scrollPosition > 100
+        //     ? { transform: "translate(0, 10rem)" }
+        //     : {}
+        // }
       >
         <div className="flex justify-between">
           <h1 className="sm:ml-10 text-2xl my-4">
@@ -171,7 +173,8 @@ const Header = ({ route }) => {
                   src="https://ik.imagekit.io/theg0g1wy/IEEE_web/IEEEGECTLOGO_purple.png?updatedAt=1718441483497"
                   quality={100}
                   placeholder="tracedSVG"
-                  formats={["AUTO", "WEBP", "AVIF"]}
+                  //formats={["AUTO", "WEBP", "AVIF"]}
+                  formats={["AUTO", "WEBP"]}
                   alt="logo"
                 />
               </div>
@@ -201,47 +204,7 @@ const Header = ({ route }) => {
       </header>
 
       {/* Header to be displayed first if homepage */}
-      {route === "/" ? (
-        <header className="absolute top-0 w-full px-6 z-30">
-          <div className="flex justify-between">
-            <h1 className="sm:ml-10 text-2xl my-4">
-              <Link to="/">
-                <div className="pt-1 w-40 md:w-48">
-                  <StaticImage
-                    src="https://ik.imagekit.io/theg0g1wy/IEEE_web/IEEEGECTLOGO_white.png?updatedAt=1718441175452"
-                    quality={100}
-                    placeholder="tracedSVG"
-                    formats={["AUTO", "WEBP", "AVIF"]}
-                    alt="logo"
-                  />
-                </div>
-              </Link>
-            </h1>
-
-            {/* Sidebar button before md */}
-            {!isOpen ? (
-              <div className="flex items-center">
-                <button
-                  className="px-3 py-1.5 text-2xl rounded-lg border-2 text-white hover:text-black transition-colors border-white hover:bg-white focus:outline-none md:hidden"
-                  aria-label="Toggle-sidebar"
-                  onClick={() => setIsOpen(true)}
-                >
-                  <FontAwesomeIcon icon={faBars} />
-                </button>
-              </div>
-            ) : (
-              ""
-            )}
-
-            {/* Links displayed after md */}
-            <ul className="hidden md:flex text-white items-center">
-              {Navlinks}
-            </ul>
-          </div>
-        </header>
-      ) : (
-        ""
-      )}
+      
     </>
   )
 }

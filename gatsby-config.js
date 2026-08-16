@@ -5,7 +5,7 @@ module.exports = {
     author: "IEEE SB GEC Thrissur",
     siteUrl: "https://ieee.gectcr.ac.in",
   },
-  pathPrefix: "/web-core",
+  //pathPrefix: "/web-core",
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
@@ -40,8 +40,21 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: ["auto", "png"], // avoid avif and webp for now
+          placeholder: "blurred",
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        defaults: {
+          formats: ["auto", "png"],  // Remove webp to test
+          placeholder: "blurred",
+        },
         name: `IEEE Website GEC Thrissur`,
         short_name: `IEEE GECT`,
         start_url: `/`,

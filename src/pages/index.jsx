@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout route="/">
     <Seo title="" />
     <HomeHeroImg />
-    <CoverEffect />
+    {/* <CoverEffect /> */}
     {/* <Current></Current> */}
     {/* <Hackatarch/> */}
     <Homeaboutus />

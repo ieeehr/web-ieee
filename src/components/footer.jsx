@@ -1,22 +1,22 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+//import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
         <div className="md:max-w-md lg:col-span-2">
-          <a href="/" aria-label="Go home" className="inline-flex items-center">
+          {/* <a href="/" aria-label="Go home" className="inline-flex items-center">
             <StaticImage
-              src="../images/logo-blue.png"
+              src="../images/logo-blue.jpg"
               quality={100}
               width={160}
               placeholder="tracedSVG"
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="logo"
             />
-          </a>
+          </a> */}
           <div className="mt-4 lg:max-w-sm">
             <p className="text-sm text-gray-800">
               Thank you for checking us out, hope we could be of help. Please do
@@ -108,7 +108,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="font-semibold tracking-wide text-gray-800 ">
+            <p className="font-semibold text-center tracking-wide text-gray-800 ">
               Societies
             </p>
             <div className="grid grid-cols-3">
@@ -145,6 +145,14 @@ const Footer = () => {
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       PELS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc5"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      IES
                     </Link>
                   </li>
                 </ul>
