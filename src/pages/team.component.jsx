@@ -14,7 +14,7 @@ let core_members = [
   },
   {
     name: "Neeraj K V ",
-    img: "",
+    img: "https://ik.imagekit.io/tczanxxbu/IEEE%20Execom%2026/Neeraj%20K%20V.jpg?updatedAt=1787926993869",
     position: "Vice Chairperson"
   },
   {
@@ -34,7 +34,7 @@ let core_members = [
   },
   {
     name: "Pavithra B",
-    img: "",
+    img: "https://ik.imagekit.io/tczanxxbu/IEEE%20Execom%2026/Pavithra%20B.jpg?updatedAt=1787926991556",
     position: "Treasurer"
   },
   {
@@ -44,7 +44,7 @@ let core_members = [
   },
   {
     name:"Mrudhul Sankar V S",
-    img:"",
+    img:"https://ik.imagekit.io/tczanxxbu/IEEE%20Execom%2026/Mrudhul%20Sankar%20V%20S.jpg?updatedAt=1787926991010",
     position:"Technical Coordinator"
   },
   {
