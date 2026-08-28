@@ -1,22 +1,11 @@
 import * as React from "react"
 import { Link } from "gatsby"
-//import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
         <div className="md:max-w-md lg:col-span-2">
-          {/* <a href="/" aria-label="Go home" className="inline-flex items-center">
-            <StaticImage
-              src="../images/logo-blue.jpg"
-              quality={100}
-              width={160}
-              placeholder="tracedSVG"
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="logo"
-            />
-          </a> */}
           <div className="mt-4 lg:max-w-sm">
             <p className="text-sm text-gray-800">
               Thank you for checking us out, hope we could be of help. Please do
@@ -159,22 +148,6 @@ const Footer = () => {
               </div>
               <div className="col-start-3 col-span-1">
                 <ul className="mt-2 space-y-2">
-                  {/* <li>
-                    <Link
-                      to="/chapters/#soc4"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      RAS
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/chapters/#soc5"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      PELS
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       to="/chapters/#soc6"
@@ -227,14 +200,6 @@ const Footer = () => {
                       WIE
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link
-                      to="/chapters/#soc7"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      SIGHT
-                    </Link>
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -248,7 +213,7 @@ const Footer = () => {
         </p>
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
-            href="https://www.linkedin.com/in/ieee-sb-gec-thrissur-9b93041a8/"
+            href="https://www.linkedin.com/company/ieee-sb-gect/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noreferrer"
