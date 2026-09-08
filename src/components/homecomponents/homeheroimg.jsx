@@ -7,7 +7,7 @@ const slides = [
     id: 0,
     component: (
       <StaticImage
-        src="../../images/Grp.jpg"
+        src="../../images/agm.jpg"
         quality={100}
         placeholder="blurred"
         formats={["AUTO", "WEBP"]}
