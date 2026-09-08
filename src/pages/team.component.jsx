@@ -405,7 +405,7 @@ const Team = () => {
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Meet the very versatile and dynamic Executive Committee Team of IEEE
-          SB GECT for the year 2025- 2026
+          SB GECT for the year 2026- 2027
         </p>
       </div>
       <div className="grid gap-12 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
